@@ -4,8 +4,7 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "3000:3000"
+      - "3000:3020"
     command: >
       sh -c "
-      npm install &&
       npm start"
